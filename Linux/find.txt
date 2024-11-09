@@ -1,0 +1,99 @@
+ 1  pwd
+    2  pwd
+    3  whoamo
+    4  ls
+    5  ls -al
+    6  ls /
+    7  ls /etc
+    8  ls -ll/etc
+    9  ls -ll/etc
+   10  cd /tmp
+   11  pwd
+   12  mkdir piit
+   13  cd piit
+   14  pwd
+   15  touch file apple.txt orange.txt
+   16  touch file{1..10}.txt
+   17  ls
+   18  nano apple.txt
+   19  which nano
+   20  which ls
+   21  which passwd
+   22  which useradd
+   23  yum install nano -y
+   24  nano apple.txt
+   25  cd t/
+   26  cd /
+   27  pwd
+   28  ls /tmp/piit
+   29  find /tmp/piit/ -name apple.txt
+   30  find /tmp/ -mtime -7
+   31  find /tmp/ -mtime -1
+   32  clear
+   33  find / -name apple*.*
+   34  find / -name apple*txt
+   35  find / -name a*txt
+   36  find / -name a*txt > test.txt
+   37  cat test.txt
+   38  find / -type f -name "*.log"
+   39  clear
+   40  cd /
+   41  pwd
+   42  find / -size +100m
+   43  find / -size +100M
+   44  find / -size +10M
+   45  find / -size +50M
+   46  find / -type f -cmin
+   47  find / -type f -cmin60
+   48  find / -type f -cmin  -60
+   49  clear
+   50  ls
+   51  cd /tmp/piit
+   52  ls
+   53  diff apple.txt orange.txt
+   54  nano orange
+   55  diff apple.txt orange.txt
+   56  nano orange.txt
+   57  diff apple.txt orange.txt
+   58  clear
+   59  file /etc/passwd
+   60  file /tmp/piit/apple.txt
+   61  which ls
+   62  file /usr/bin/ls
+   63  touch ali
+   64  ls
+   65  file ali
+   66  cat apple.txt
+   67  grep "piit" /
+   68  grep "piit" /tmp/piit/
+   69  grep -r "piit" /tmp/piit/
+   70  grep -r "piit" /tmp
+   71  grep -r "devops" /tmp
+   72  grep -r "AWS" /tmp
+   73  grep -ri "AWS
+LOL
+cd ..
+exit
+exit
+q
+exit
+   74  grep -ri "AWS" /tmp
+   75  grep -ri "ec2" /etc/tmp
+   76  grep -ri "ec2" /etc/passwd
+   77  useradd apple
+   78  cat /etc/passwd
+   79  -l orange apple
+   80  cat /etc/passwd
+   81  ls
+   82  clear
+   83  ls
+   84  cat apple.txt
+   85  sed -i 's/aws/azure/g' apple.txt
+   86  cat apple.txt
+   87  clear
+   88  les apple.txt
+   89  les apple.txt
+   90  less apple.txt
+   91  head head apple.txt
+   92  tail apple.txt
+   93  history
